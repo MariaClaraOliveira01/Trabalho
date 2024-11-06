@@ -28,5 +28,6 @@ function mudarCorFundo (){
 
 //Muda a cor do texto do parágrafo inicial par auma cor aleatória
 function mudarCorTexto() {
-    const cores = ["#FF5733", "#33FF57", "#3357FF", "#FF3"]
+    const cores = ["#FF5733", "#33FF57", "#3357FF", "#FF33A6", "#FFC133"];
+    document.getElementById("text").style.color = cores[Math.floor(Math.random() * cores.length)];
 }
