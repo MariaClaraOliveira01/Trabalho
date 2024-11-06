@@ -21,12 +21,12 @@ function removerParagrafo() {
 }
 
 //Muda a cor de fundo da página para uma cor aleatória
-function mudarCorFundo (){
+function mudarCorFundo () {
     const corAleatoria =   `#${Math.floor(Math.random() = 16777215).toString(16)}`;
     document.body.style.backgroundColor = corAleatoria;
 }
 
-//Muda a cor do texto do parágrafo inicial par auma cor aleatória
+//Muda a cor do texto do parágrafo inicial para uma cor aleatória
 function mudarCorTexto() {
     const cores = ["#FF5733", "#33FF57", "#3357FF", "#FF33A6", "#FFC133"];
     document.getElementById("text").style.color = cores[Math.floor(Math.random() * cores.length)];
